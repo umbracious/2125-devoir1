@@ -6,6 +6,7 @@
 
 import csv
 import math
+import numpy as np
 
 class Node:
 
@@ -14,19 +15,24 @@ class Node:
         self.y = y
 
     def __str__(self):
-        return f"{self.x},{self.y}"
+        return f"x: {self.x}, y: {self.y}"
 
 class Edge:
 
     def __init__(self, n1:Node, n2:Node):
         self.n1 = n1
         self.n2 = n2
+        self.dist = distance(self.n1,self.n2)
 
-#calculate distance
-def distance(p1:Node, p2:Node):
+    def __str__(self):
+        #return f"x1: {self.n1.x}, y1: {self.n1.y}, x2: {self.n2.x}, y2: {self.n2.y}"
+        return f"distance: {self.dist}"
 
-    distX = abs(a.x - b.x)
-    distY = abs(a.y - b.y)
+#calculate distance between two nodes
+def distance(n1:Node, n2:Node):
+
+    distX = abs(n1.x - n2.x)
+    distY = abs(n1.y - n2.y)
 
     #pythagore
     return math.sqrt(distX**2+distY**2)
@@ -103,23 +109,60 @@ def intersect(edge1:Edge, edge2:Edge):
 ##############################################################
 
 def main():
-    points=[]
-    edges = []
+    nodes=[] #array of all nodes
+    edges=[] #array of all valid edges
+    final=[] #array of all final edges
+    total=0
 
     #csv parsing adapted from source 1
-    with open('data_devoir1\instance_jarry.csv') as csv_file:
+    with open('2125-devoir1\data_devoir1\instance_lionais.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter = ',')
         line = 0
         for row in csv_reader:
             if line > 0:
-                points.append(Node(float(row[8]),float(row[9])))
+                nodes.append(Node(float(row[8]),float(row[9])))
             line+=1
+
+    #find all valid edges
+    for i in range(len(nodes)):
+        for j in range(i+1, len(nodes)):
+            n1 = nodes[i]
+            n2 = nodes[j]
+
+            dist = distance(n1,n2)
+
+            if dist>=5 and dist<=30:
+                edges.append(Edge(n1, n2))
+
+    #sort edges in order of distance
+    edges.sort(key=lambda edge: edge.dist)
+    np.asarray(edges)
+
+    #current largest edge
+    curr = edges.pop()
+    final.append(curr)
+
+    while len(edges)>0:
+        for edge in edges:
+            if intersect(edge, curr):
+                edges.remove(edge)
+        curr = edges.pop()
+        final.append(curr)
+    
+    for edge in final:
+        total += edge.dist
+        
+    print(total)
+        
+
+
+
+    #sort array elements
 
 if __name__ == "__main__":
     main()
 
 # whats left to do:
 
-# -create a list of valid edges (5<=dist<=30)
-# -write a greedy algortithm that chooses the longest edges in order as long as they dont intersect
+# -potentially make the algorithm more efficient, runtime is a little long now
 # -if there is enough time, try a different algorithm to see which gets a better result (expand from both nodes of the largest edge)
