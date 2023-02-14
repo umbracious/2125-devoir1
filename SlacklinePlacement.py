@@ -7,8 +7,6 @@
 import csv
 import math
 
-points=[]
-
 class Node:
 
     def __init__(self, x:float, y:float):
@@ -23,15 +21,6 @@ class Edge:
     def __init__(self, n1:Node, n2:Node):
         self.n1 = n1
         self.n2 = n2
-
-#csv parsing adapted from source 1
-with open('data_devoir1\instance_jarry.csv') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter = ',')
-    line = 0
-    for row in csv_reader:
-        if line > 0:
-            points.append(Node(float(row[8]),float(row[9])))
-        line+=1
 
 #calculate distance
 def distance(p1:Node, p2:Node):
@@ -113,6 +102,21 @@ def intersect(edge1:Edge, edge2:Edge):
 
 ##############################################################
 
+def main():
+    points=[]
+    edges = []
+
+    #csv parsing adapted from source 1
+    with open('data_devoir1\instance_jarry.csv') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter = ',')
+        line = 0
+        for row in csv_reader:
+            if line > 0:
+                points.append(Node(float(row[8]),float(row[9])))
+            line+=1
+
+if __name__ == "__main__":
+    main()
 
 # whats left to do:
 
