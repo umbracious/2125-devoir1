@@ -7,6 +7,7 @@
 import csv
 import math
 import numpy as np
+import sys
 
 class Node:
 
@@ -116,12 +117,12 @@ def main():
     total=0
 
     #csv parsing adapted from source 1
-    with open('data_devoir1\instance_jean-brillant.csv') as csv_file:
+    with open(f'data_devoir1\{sys.argv[1]}') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter = ',')
         line = 0
         for row in csv_reader:
             if line > 0 and float(row[14])>=25:
-                nodes.append(Node(float(row[8]),float(row[9]),line))
+                nodes.append(Node(float(row[8]),float(row[9]),(line-1)))
             line+=1
 
     #find all valid edges
