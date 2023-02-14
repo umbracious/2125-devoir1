@@ -1,6 +1,10 @@
 #Satyam Chowdhury 20214226
 #Carlos Eduardo
 
+#Using a greedy algorithm takes coordinates of nodes (trees) and returns a list of slacks (edges in the format [tree1, tree2])
+#None of these edges should overlap, and the edges are between 5-30m long.
+#The algorithm should ideally attempt to maximize the total amount of distance covered by the slacks
+
 #Sources: 1- https://realpython.com/python-csv/#parsing-csv-files-with-pythons-built-in-csv-library -> csv reader
 #         2- https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/ -> check for intersection
 
@@ -9,6 +13,7 @@ import math
 import numpy as np
 import sys
 
+#node class to represent trees
 class Node:
 
     def __init__(self, x:float, y:float, n:int):
@@ -19,6 +24,7 @@ class Node:
     def __str__(self):
         return f"x: {self.x}, y: {self.y}"
 
+#edge class to represent slacks
 class Edge:
 
     def __init__(self, n1:Node, n2:Node):
@@ -27,8 +33,7 @@ class Edge:
         self.dist = distance(self.n1,self.n2)
 
     def __str__(self):
-        #return f"x1: {self.n1.x}, y1: {self.n1.y}, x2: {self.n2.x}, y2: {self.n2.y}"
-        return f"distance: {self.dist}"
+        return f"x1: {self.n1.x}, y1: {self.n1.y}, x2: {self.n2.x}, y2: {self.n2.y}, distance: {self.dist}"
 
 #calculate distance between two nodes
 def distance(n1:Node, n2:Node):
@@ -41,6 +46,7 @@ def distance(n1:Node, n2:Node):
 
 ########## following methods were taken from source 2 ##########
 
+#checks if point q lies between points p and r
 def onSegment(p, q, r):
     if ( (q.x <= max(p.x, r.x)) and (q.x >= min(p.x, r.x)) and 
            (q.y <= max(p.y, r.y)) and (q.y >= min(p.y, r.y))):
@@ -145,6 +151,7 @@ def main():
     final.append([curr.n1.n, curr.n2.n])
     total+=curr.dist
 
+    #each iteration, select largest edge and remove overlapping edges
     while len(edges)>0:
         for edge in edges:
             if intersect(edge, curr):
@@ -161,7 +168,12 @@ def main():
 if __name__ == "__main__":
     main()
 
-# whats left to do:
-
+# TODO:
+# -determine complexity of algorithm
+# -implement time measurement
 # -potentially make the algorithm more efficient, runtime is a little long now
 # -if there is enough time, try a different algorithm to see which gets a better result (expand from both nodes of the largest edge)
+
+# possible better algorithms:
+# - for each edge, add the distance covered by every single one of the edges it overlaps with and choose edge that returns the shortest distance. repeat until no edges left
+# - choose the largest edge. every iteration, list every edge connecting to a node on the graph. add the largest of these edges to the graph
