@@ -10,9 +10,10 @@ import numpy as np
 
 class Node:
 
-    def __init__(self, x:float, y:float):
+    def __init__(self, x:float, y:float, n:int):
         self.x = x
         self.y = y
+        self.n = n
 
     def __str__(self):
         return f"x: {self.x}, y: {self.y}"
@@ -115,12 +116,12 @@ def main():
     total=0
 
     #csv parsing adapted from source 1
-    with open('2125-devoir1\data_devoir1\instance_lionais.csv') as csv_file:
+    with open('data_devoir1\instance_jean-brillant.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter = ',')
         line = 0
         for row in csv_reader:
-            if line > 0:
-                nodes.append(Node(float(row[8]),float(row[9])))
+            if line > 0 and float(row[14])>=25:
+                nodes.append(Node(float(row[8]),float(row[9]),line))
             line+=1
 
     #find all valid edges
@@ -153,11 +154,6 @@ def main():
         total += edge.dist
         
     print(total)
-        
-
-
-
-    #sort array elements
 
 if __name__ == "__main__":
     main()
