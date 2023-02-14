@@ -1,0 +1,74 @@
+INV_TYPE,EMP_NO,ARROND,ARROND_NOM,Rue,COTE,No_civique,Emplacement,Coord_X,Coord_Y,SIGLE,Essence_latin,Essence_fr,ESSENCE_ANG,DHP,Date_releve,Date_plantation,LOCALISATION,CODE_PARC,NOM_PARC,Longitude,Latitude
+"H",8391,5,"Le Plateau-Mont-Royal",,,,"PArc",297678.597,5042552.5,"TIAM","Tilia americana","Tilleul d'Amérique","Basswood",30,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591161,45.522854
+"H",8392,5,"Le Plateau-Mont-Royal",,,,"PArc",297674.75,5042546.5,"ULAM","Ulmus americana","Orme d'Amérique","White Elm",32,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591211,45.5228
+"H",8393,5,"Le Plateau-Mont-Royal",,,,"PArc",297670.005,5042538.5,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",44,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591271,45.522728
+"H",8394,5,"Le Plateau-Mont-Royal",,,,"PArc",297666.897,5042534,"TIAM","Tilia americana","Tilleul d'Amérique","Basswood",26,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591311,45.522688
+"H",8395,5,"Le Plateau-Mont-Royal",,,,"PArc",297662.92100000003,5042528,"TIAM","Tilia americana","Tilleul d'Amérique","Basswood",30,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591362,45.522634
+"H",8396,5,"Le Plateau-Mont-Royal",,,,"PArc",297656.781,5042534,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",60,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.59144,45.522687
+"H",8397,5,"Le Plateau-Mont-Royal",,,,"PArc",297662.74100000004,5042537.5,"JUCI","Juglans cinerea","Noyer cendré","Butternut",21,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591364,45.522719
+"H",8399,5,"Le Plateau-Mont-Royal",,,,"PArc",297667.775,5042544.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",46,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.5913,45.522782
+"H",8400,5,"Le Plateau-Mont-Royal",,,,"PArc",297658.94399999996,5042554,"ULAM","Ulmus americana","Orme d'Amérique","White Elm",29,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591413,45.522867
+"H",8401,5,"Le Plateau-Mont-Royal",,,,"PArc",297668.00899999996,5042555.5,"OSVI","Ostrya virginiana","Ostryer de Virginie","American Hop-Hornbeam Ironwood",5,"2022-10-11T00:00:00","2022-10-11T00:00:00",,"0067-000","LAHAIE",-73.591297,45.522881
+"H",8402,5,"Le Plateau-Mont-Royal",,,,"PArc",297676.481,5042560,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",49,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591189,45.522922
+"H",8403,5,"Le Plateau-Mont-Royal",,,,"PArc",297667.599,5042565.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",50,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591302,45.522971
+"H",8404,5,"Le Plateau-Mont-Royal",,,,"PArc",297653.038,5042524.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",46,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591488,45.522602
+"H",8405,5,"Le Plateau-Mont-Royal",,,,"PArc",297643.447,5042530,"TICO","Tilia cordata","Tilleul à petites feuilles","Littleleaf European Linden",13,"2019-05-28T00:00:00","2008-09-30T00:00:00",,"0067-000","LAHAIE",-73.591611,45.522651
+"H",8406,5,"Le Plateau-Mont-Royal",,,,"PArc",297649.76300000004,5042538,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",39,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.59153,45.522723
+"H",8407,5,"Le Plateau-Mont-Royal",,,,"PArc",297639.12,5042533,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",55,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591666,45.522678
+"H",8408,5,"Le Plateau-Mont-Royal",,,,"PArc",297630.99100000004,5042538.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",61,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591771,45.522728
+"H",8409,5,"Le Plateau-Mont-Royal",,,,"PArc",297654.208,5042557.5,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",46,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591474,45.522899
+"H",8410,5,"Le Plateau-Mont-Royal",,,,"PArc",297658.429,5042563.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",45,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.59142,45.522953
+"H",8412,5,"Le Plateau-Mont-Royal",,,,"PArc",297653.915,5042570,"JUCI","Juglans cinerea","Noyer cendré","Butternut",31,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591478,45.523011
+"H",8413,5,"Le Plateau-Mont-Royal",,,,"PArc",297646.605,5042554,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",50,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.591571,45.522867
+"H",8414,5,"Le Plateau-Mont-Royal",,,,"PArc",297638.125,5042560.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",17,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.59168,45.522926
+"H",8415,5,"Le Plateau-Mont-Royal",,,,"PArc",297644.07899999997,5042570.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",57,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591604,45.523016
+"H",8416,5,"Le Plateau-Mont-Royal",,,,"PArc",297648.769,5042562,"JUCI","Juglans cinerea","Noyer cendré","Butternut",28,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591543,45.522939
+"H",8417,5,"Le Plateau-Mont-Royal",,,,"PArc",297644.149,5042549,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",61,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.591602,45.522822
+"H",8418,5,"Le Plateau-Mont-Royal",,,,"PArc",297635.436,5042545.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",44,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591714,45.522791
+"H",8419,5,"Le Plateau-Mont-Royal",,,,"PArc",297626.488,5042542.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",47,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591828,45.522764
+"H",8420,5,"Le Plateau-Mont-Royal",,,,"PArc",297621.751,5042554.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",43,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591889,45.522872
+"H",8421,5,"Le Plateau-Mont-Royal",,,,"PArc",297611.92699999997,5042561,"QURU","Quercus rubra","Chêne rouge","Red Oak",37,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592015,45.52293
+"H",8422,5,"Le Plateau-Mont-Royal",,,,"PArc",297610.523,5042566.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",26,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592033,45.522979
+"H",8423,5,"Le Plateau-Mont-Royal",,,,"PArc",297608.535,5042572,"JUCI","Juglans cinerea","Noyer cendré","Butternut",35,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592059,45.523029
+"H",8424,5,"Le Plateau-Mont-Royal",,,,"PArc",297617.541,5042566.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",47,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591943,45.52298
+"H",8425,5,"Le Plateau-Mont-Royal",,,,"PArc",297627.131,5042566.5,"TIAM","Tilia americana","Tilleul d'Amérique","Basswood",67,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.59182,45.52298
+"H",8426,5,"Le Plateau-Mont-Royal",,,,"PArc",297621.92699999997,5042570.5,"ACNI","Acer nigrum","Érable noir","Black Maple",60,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591887,45.523016
+"H",8427,5,"Le Plateau-Mont-Royal",,,,"PArc",297611.459,5042576.5,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",64,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.592021,45.523069
+"H",8428,5,"Le Plateau-Mont-Royal",,,,"PArc",297628.593,5042577.5,"JUCI","Juglans cinerea","Noyer cendré","Butternut",30,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591802,45.523079
+"H",8429,5,"Le Plateau-Mont-Royal",,,,"PArc",297635.377,5042576.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",36,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591715,45.52307
+"H",8430,5,"Le Plateau-Mont-Royal",,,,"PArc",297629.705,5042585,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",53,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591788,45.523146
+"H",8431,5,"Le Plateau-Mont-Royal",,,,"PArc",297628.114,5042591,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",59,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.591808,45.5232
+"H",8432,5,"Le Plateau-Mont-Royal",,,,"PArc",297612.804,5042591.5,"SOAR","Sorbus aria","Alisier blanc","White Bear",20,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592004,45.523204
+"H",8433,5,"Le Plateau-Mont-Royal",,,,"PArc",297611.05,5042584.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",26,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592027,45.523141
+"H",8434,5,"Le Plateau-Mont-Royal",,,,"PArc",297619.88,5042585,"CEOC","Celtis occidentalis","Micocoulier occidental","Common Hackberry",14,"2019-05-28T00:00:00","2010-10-23T00:00:00",,"0067-000","LAHAIE",-73.591914,45.523146
+"H",8435,5,"Le Plateau-Mont-Royal",,,,"PArc",297609.76300000004,5042553,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",55,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592043,45.522858
+"H",8436,5,"Le Plateau-Mont-Royal",,,,"PArc",297600.69899999996,5042558,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",51,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592159,45.522903
+"H",8437,5,"Le Plateau-Mont-Royal",,,,"PArc",297597.775,5042567,"QURU","Quercus rubra","Chêne rouge","Red Oak",17,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592196,45.522984
+"H",8438,5,"Le Plateau-Mont-Royal",,,,"PArc",297602.278,5042571,"CRCO","Carya cordiformis","Caryer cordiforme","Bitternut Hickory",5,"2020-09-12T00:00:00","2020-09-12T00:00:00",,"0067-000","LAHAIE",-73.592139,45.52302
+"H",8439,5,"Le Plateau-Mont-Royal",,,,"PArc",297590.874,5042565.5,"ACNI","Acer nigrum","Érable noir","Black Maple",64,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592285,45.52297
+"H",8440,5,"Le Plateau-Mont-Royal",,,,"PArc",297583.856,5042570,"QURU","Quercus rubra","Chêne rouge","Red Oak",14,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592374,45.523011
+"H",8441,5,"Le Plateau-Mont-Royal",,,,"PArc",297576.956,5042574.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",27,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592463,45.523051
+"H",8442,5,"Le Plateau-Mont-Royal",,,,"PArc",297593.68100000004,5042575.5,"SYRE","Syringa reticulata","Lilas japonais","Japanese Tree Lilac",13,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592249,45.52306
+"H",8443,5,"Le Plateau-Mont-Royal",,,,"PArc",297593.798,5042569.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",21,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592247,45.523006
+"H",8444,5,"Le Plateau-Mont-Royal",,,,"PArc",297599.587,5042597.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",59,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592173,45.523258
+"H",8445,5,"Le Plateau-Mont-Royal",,,,"PArc",297595.494,5042607,"QURU","Quercus rubra","Chêne rouge","Red Oak",25,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592226,45.523344
+"H",8446,5,"Le Plateau-Mont-Royal",,,,"PArc",297593.096,5042613.5,"QURU","Quercus rubra","Chêne rouge","Red Oak",29,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592257,45.523402
+"H",8447,5,"Le Plateau-Mont-Royal",,,,"PArc",297607.131,5042604.5,"AMLA","Amelanchier laevis","Amelanchier laevis","Amelanchier laevis",5,"2020-09-18T00:00:00","2020-09-18T00:00:00",,"0067-000","LAHAIE",-73.592077,45.523321
+"H",8448,5,"Le Plateau-Mont-Royal",,,,"PArc",297611.517,5042598,"ACSC","Acer saccharum","Érable à sucre","Sugar Maple",24,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592021,45.523263
+"H",8449,5,"Le Plateau-Mont-Royal",,,,"PArc",297608.19,5042593,"SYRE","Syringa reticulata","Lilas japonais","Japanese Tree Lilac",12,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592063,45.523218
+"H",8450,5,"Le Plateau-Mont-Royal",,,,"PArc",297602.453,5042602,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",52,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592137,45.523299
+"H",8451,5,"Le Plateau-Mont-Royal",,,,"PArc",297588.184,5042580.5,"JUCI","Juglans cinerea","Noyer cendré","Butternut",38,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592319,45.523105
+"H",8452,5,"Le Plateau-Mont-Royal",,,,"PArc",297578.722,5042589,"SYREIS","Syringa reticulata 'Ivory Silk'","Lilas japonais Ivory Silk","Ivory Silk Japanese Tree Lilac",5,"2020-09-12T00:00:00","2020-09-12T00:00:00",,"0067-000","LAHAIE",-73.59244,45.523182
+"H",8453,5,"Le Plateau-Mont-Royal",,,,"PArc",297584.968,5042588.5,"JUCI","Juglans cinerea","Noyer cendré","Butternut",41,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.59236,45.523177
+"H",8454,5,"Le Plateau-Mont-Royal",,,,"PArc",297589.587,5042591,"QURU","Quercus rubra","Chêne rouge","Red Oak",31,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592301,45.5232
+"H",8455,5,"Le Plateau-Mont-Royal",,,,"PArc",297584.32399999996,5042598.5,"SOAR","Sorbus aria","Alisier blanc","White Bear",16,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592369,45.523267
+"H",8456,5,"Le Plateau-Mont-Royal",,,,"PArc",297588.359,5042605.5,"GYDI","Gymnocladus dioicus","Chicot du Canada","Kentucky Coffee Tree",16,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592317,45.52333
+"H",8457,5,"Le Plateau-Mont-Royal",,,,"PArc",297594.266,5042595,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",53,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592242,45.523236
+"H",8458,5,"Le Plateau-Mont-Royal",,,,"PArc",297566.664,5042579,"ACSA","Acer saccharinum","Érable argenté","Silver Maple",44,"2022-09-12T00:00:00",,,"0067-000","LAHAIE",-73.592595,45.523091
+"H",8459,5,"Le Plateau-Mont-Royal",,,,"PArc",297571.225,5042587.5,"AMLA","Amelanchier laevis","Amelanchier laevis","Amelanchier laevis",5,"2020-09-12T00:00:00","2020-09-12T00:00:00",,"0067-000","LAHAIE",-73.592536,45.523168
+"H",8460,5,"Le Plateau-Mont-Royal",,,,"PArc",297574.968,5042593.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",56,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592489,45.523222
+"H",8461,5,"Le Plateau-Mont-Royal",,,,"PArc",297581.88300000003,5042605,"QURU","Quercus rubra","Chêne rouge","Red Oak",12,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.5924,45.523326
+"H",8462,5,"Le Plateau-Mont-Royal",,,,"PArc",297586.956,5042613.5,"ACPL","Acer platanoides","Érable de Norvège","Norway Maple",49,"2019-05-28T00:00:00",,,"0067-000","LAHAIE",-73.592335,45.523402
+"H",30511,5,"Le Plateau-Mont-Royal",,,,"PArc",297596.316,5042584.756,"CEOC","Celtis occidentalis","Micocoulier occidental","Common Hackberry",14,"2019-05-28T00:00:00","2010-10-10T00:00:00",,"0067-000","LAHAIE",-73.592215,45.523144
+"H",30512,5,"Le Plateau-Mont-Royal",,,,"PArc",297573.25899999996,5042580.063,"ULXXMO","Ulmus x 'Morton' (Accolade TM)","Orme Morton (Accolade TM)","Morton (Accolade TM) Elm",17,"2019-05-28T00:00:00","2010-10-10T00:00:00",,"0067-000","LAHAIE",-73.59251,45.523101
+"H",126617,5,"Le Plateau-Mont-Royal",,,,"PArc",297601.228,5042608.862,"AMLA","Amelanchier laevis","Amelanchier laevis","Amelanchier laevis",5,"2020-09-12T00:00:00","2020-09-12T00:00:00",,"0067-000","LAHAIE",-73.592153,45.523361

@@ -1,0 +1,8 @@
+7 50
+i1 : p8 p32
+i2 : p4 p20 p34 p36 p39 p47
+i3 : p1 p2 p3 p5 p10 p13 p14 p15 p22 p26 p28 p29 p31 p35 p39 p40 p47 p50
+i4 : p11 p15 p18 p24 p26 p27 p30 p36 p37 p38 p41 p42 p47 p48
+i5 : p6 p7 p8 p12 p16 p18 p19 p20 p21 p23 p31 p35 p42 p43 p44 p46 p47 p49
+i6 : p6 p8 p9 p11 p13 p14 p17 p18 p19 p20 p23 p24 p25 p29 p31 p32 p33 p36 p39 p40 p41 p43 p44 p45
+i7 : p5 p8 p12 p14 p21 p22 p32 p45
