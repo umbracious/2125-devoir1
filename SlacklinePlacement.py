@@ -141,19 +141,21 @@ def main():
 
     #current largest edge
     curr = edges.pop()
-    final.append(curr)
+    final.append([curr.n1.n, curr.n2.n])
+    total+=curr.dist
 
     while len(edges)>0:
         for edge in edges:
             if intersect(edge, curr):
                 edges.remove(edge)
         curr = edges.pop()
-        final.append(curr)
+        final.append([curr.n1.n, curr.n2.n])
+        total+=curr.dist
     
-    for edge in final:
-        total += edge.dist
-        
+    print(final)
     print(total)
+    return final
+
 
 if __name__ == "__main__":
     main()
