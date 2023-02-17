@@ -1,7 +1,7 @@
 #Satyam Chowdhury 20214226
 #Carlos Eduardo
 
-#Using a greedy algorithm takes coordinates of nodes (trees) and returns a list of slacks (edges in the format [tree1, tree2])
+#Using a greedy algorithm that takes coordinates of nodes (trees) and returns a list of slacks (edges in the format [tree1, tree2])
 #None of these edges should overlap, and the edges are between 5-30m long.
 #The algorithm should ideally attempt to maximize the total amount of distance covered by the slacks
 
@@ -12,6 +12,7 @@ import csv
 import math
 import numpy as np
 import sys
+import time
 
 #node class to represent trees
 class Node:
@@ -114,9 +115,11 @@ def intersect(edge1:Edge, edge2:Edge):
     if ((o4 == 0) and onSegment(p2, q1, q2)):
         return True
 
-##############################################################
+###################### end source 2 ###########################
 
 def main():
+    start = time.time()
+
     nodes=[] #array of all nodes
     edges=[] #array of all valid edges
     final=[] #array of all final edges
@@ -162,6 +165,12 @@ def main():
     
     print(final)
     print(total)
+
+    end = time.time()
+
+    print(f'run-time = {end - start}')
+
+
     return final
 
 
@@ -169,8 +178,8 @@ if __name__ == "__main__":
     main()
 
 # TODO:
+# -write return statement to a .txt file
 # -determine complexity of algorithm
-# -implement time measurement
 # -potentially make the algorithm more efficient, runtime is a little long now
 # -if there is enough time, try a different algorithm to see which gets a better result (expand from both nodes of the largest edge)
 
