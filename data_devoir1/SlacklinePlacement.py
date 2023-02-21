@@ -126,7 +126,7 @@ def main():
     total=0
 
     #csv parsing adapted from source 1
-    with open(f'data_devoir1\{sys.argv[1]}') as csv_file:
+    with open(f'{sys.argv[1]}') as csv_file: #FILE HAS TO BE IN SAME FOLDER AS PYTHON SCRIPT
         csv_reader = csv.reader(csv_file, delimiter = ',')
         line = 0
         for row in csv_reader:
@@ -163,15 +163,22 @@ def main():
         final.append([curr.n1.n, curr.n2.n])
         total+=curr.dist
     
+    #sort by first node, makes output look cleaner
+    final.sort(key=lambda edge: edge[0])
+
+    #print final pairs + total covered distance
     print(final)
     print(total)
 
+    #print run time
     end = time.time()
-
     print(f'run-time = {end - start}')
 
-
-    return final
+    #write output to file
+    f = open(f'resultat_{sys.argv[1]}', 'w')
+    for edge in final:
+        f.writelines(f'{edge[0]} {edge[1]}\n')
+    f.close()
 
 
 if __name__ == "__main__":
@@ -186,3 +193,8 @@ if __name__ == "__main__":
 # possible better algorithms:
 # - for each edge, add the distance covered by every single one of the edges it overlaps with and choose edge that returns the shortest distance. repeat until no edges left
 # - choose the largest edge. every iteration, list every edge connecting to a node on the graph. add the largest of these edges to the graph
+
+
+#to test:
+
+#python SlacklinePlacement.py instance_jarry.csv

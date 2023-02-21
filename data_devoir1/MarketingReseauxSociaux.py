@@ -4,6 +4,7 @@
 #Using a greedy algorithm that takes a list of influencers and population that they touch and outputs a list of influencers which combined reach every single person in the population.
 
 import time
+import sys
 
 class Influencer:
 
@@ -23,7 +24,7 @@ def main():
     start = time.time()
 
     ### read file and save relevant information ###
-    with open('data_devoir1\instance_p1000_i100.txt') as file: #TODO: path as argument
+    with open(f'{sys.argv[1]}') as file: #FILE HAS TO BE IN SAME FOLDER AS PYTHON SCRIPT
         lines = file.readlines()
     
     i = 0
@@ -45,9 +46,7 @@ def main():
 
         else: #line 0
             line = line.split(' ')
-            influencers = int(line[0])
-            populationCount = int(line[1])
-            population = [*range(1, populationCount+1)]
+            population = [*range(1, int(line[1])+1)]
 
         i+=1
 
@@ -76,15 +75,25 @@ def main():
             if person in population:
                 population.remove(person)
     
+    #prints chosen influencers and how many were chosen for debugging purposes
     print(chosen)
     print(len(chosen))
-    print(population)
 
-    #end timer
+    #end timer + print run time
     end = time.time()
-
     print(end - start)
+
+    f = open(f'resultat_{sys.argv[1]}', 'w')
+    for influencer in chosen:
+        f.writelines(f'{influencer} ')
+    f.close()
+            
 
 
 if __name__ == "__main__":
     main()
+
+
+#to test:
+
+#python MarketingReseauxSociaux.py instance_p1000_i100.txt
